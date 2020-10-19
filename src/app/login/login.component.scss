@@ -1,0 +1,14 @@
+@import "./login-form/login-form.component.scss";
+
+app-login {
+    @extend .container,
+    .d-block,
+    .text-center;
+
+    &>app-button {
+        button {
+            @extend .btn-success,
+            .btn-lg;
+        }
+    }
+}

@@ -1,0 +1,12 @@
+@import "~bootstrap/scss/bootstrap.scss";
+
+@import "./app/home/home.component.scss";
+@import "./app/login/login.component.scss";
+@import "./app/register/register.component.scss";
+
+@import "./shared/components/alert/alert.component.scss";
+@import "./shared/components/brand-title/brand-title.component.scss";
+@import "./shared/components/button/button.component.scss";
+@import "./shared/components/input/input.component.scss";
+@import "./shared/components/loading/loading.component.scss";
+@import "./shared/components/title/title.component.scss";

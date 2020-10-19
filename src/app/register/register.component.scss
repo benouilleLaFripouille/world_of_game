@@ -1,0 +1,7 @@
+@import "./register-form/register-form.component.scss";
+
+app-register {
+    @extend .container,
+    .d-block,
+    .text-center;
+}

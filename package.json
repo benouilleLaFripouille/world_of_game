@@ -1,0 +1,46 @@
+{
+  "name": "worlds-of-game",
+  "version": "1.0.0",
+  "description": "Manage game sessions",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha --require @babel/register --recursive",
+    "start": "npm run dev",
+    "dev": "webpack --mode=development --watch",
+    "prod": "webpack --mode=production --watch"
+  },
+  "author": "CDA",
+  "license": "Apache License 2.0",
+  "devDependencies": {
+    "@babel/core": "latest",
+    "@babel/preset-env": "latest",
+    "@babel/register": "latest",
+    "babel-loader": "latest",
+    "bootstrap": "^4.3.1",
+    "browser-sync": "latest",
+    "browser-sync-webpack-plugin": "latest",
+    "chai": "latest",
+    "cordova": "latest",
+    "cordova-plugin-whitelist": "^1.3.4",
+    "css-loader": "^3.2.0",
+    "file-loader": "^4.2.0",
+    "mini-css-extract-plugin": "^0.8.0",
+    "mocha": "latest",
+    "node-sass": "^4.13.0",
+    "sass-loader": "^8.0.0",
+    "style-loader": "^1.0.0",
+    "webpack": "latest",
+    "webpack-cli": "latest"
+  },
+  "dependencies": {
+    "cordova-android": "^8.1.0"
+  },
+  "cordova": {
+    "plugins": {
+      "cordova-plugin-whitelist": {}
+    },
+    "platforms": [
+      "android"
+    ]
+  }
+}

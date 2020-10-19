@@ -1,0 +1,21 @@
+app-login-form {
+    @extend .row,
+    .justify-content-center;
+
+    form {
+        @extend .col-10,
+        .col-md-6,
+        .mt-4;
+
+        app-button {
+            @extend .float-left,
+            .mt-4,
+            .mb-4;
+        }
+
+
+        app-loading {
+            @extend app-button;
+        }
+    }
+}

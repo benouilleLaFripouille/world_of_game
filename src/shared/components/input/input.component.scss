@@ -1,0 +1,8 @@
+app-input {
+    @extend .d-block,
+    .form-group;
+
+    input {
+        @extend .form-control;
+    }
+}
